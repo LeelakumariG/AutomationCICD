@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="5" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-12T08:14:24 IST" name="Suite" finished-at="2025-05-12T08:15:13 IST" duration-ms="49495">
+    <groups>
+      <group name="purchase">
+        <method signature="SubmitOrderTest.submitOrder(java.util.HashMap)[pri:0, instance:com.org.main.tests.SubmitOrderTest@595b007d]" name="submitOrder" class="com.org.main.tests.SubmitOrderTest"/>
+      </group> <!-- purchase -->
+    </groups>
+    <test started-at="2025-05-12T08:14:24 IST" name="Error Validation Test" finished-at="2025-05-12T08:14:24 IST" duration-ms="19">
+    </test> <!-- Error Validation Test -->
+    <test started-at="2025-05-12T08:14:24 IST" name="Submit Order Test" finished-at="2025-05-12T08:15:13 IST" duration-ms="49494">
+      <class name="com.org.main.tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.org.main.tests.SubmitOrderTest@595b007d]" started-at="2025-05-12T08:14:24 IST" name="launchApplication" finished-at="2025-05-12T08:14:29 IST" duration-ms="4808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:com.org.main.tests.SubmitOrderTest@595b007d]" started-at="2025-05-12T08:14:29 IST" name="submitOrder" data-provider="getData" finished-at="2025-05-12T08:14:55 IST" duration-ms="25603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Practice@12345, email=latepractice@example.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.org.main.tests.SubmitOrderTest@595b007d]" started-at="2025-05-12T08:14:55 IST" name="browserClose" finished-at="2025-05-12T08:14:55 IST" duration-ms="450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:com.org.main.tests.SubmitOrderTest@595b007d]" started-at="2025-05-12T08:14:55 IST" name="launchApplication" finished-at="2025-05-12T08:14:59 IST" duration-ms="3722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:com.org.main.tests.SubmitOrderTest@595b007d]" started-at="2025-05-12T08:14:59 IST" name="submitOrder" data-provider="getData" finished-at="2025-05-12T08:15:13 IST" duration-ms="13918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Test@12345, email=testnew@example.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.org.main.tests.SubmitOrderTest@595b007d]" started-at="2025-05-12T08:15:13 IST" name="browserClose" finished-at="2025-05-12T08:15:13 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.org.main.tests.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
