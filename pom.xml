@@ -33,14 +33,16 @@
     <artifactId>selenium-java</artifactId>
     <version>4.31.0</version>
 </dependency>
-
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
-<dependency>
+    <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
-    <version>7.11.0</version>
+    <version>7.9.0</version> <!-- You can use latest or stable -->
     <scope>test</scope>
 </dependency>
+
+
+
 
 <dependency>
     <groupId>com.fasterxml.jackson.core</groupId>
